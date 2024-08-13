@@ -2,6 +2,8 @@
 
 # include <iostream>
 
+int sum(int lhs, int rhs);
+
 int main ()
 {
     sum(10, 5);
