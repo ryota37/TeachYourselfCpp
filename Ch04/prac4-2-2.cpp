@@ -6,18 +6,13 @@ class A
 public:
     explicit A(int);
 
-    int v() const;
+    A(int v): m_v(v) {}
+
+    int v() const
+    {
+        return m_v;
+    }
 };
-
-A::A(int v)
-    : m_v(v)
-{
-}
-
-int A::v() const
-{
-    return m_v;
-}
 
 int main()
 {
