@@ -4,9 +4,7 @@ class A
     int m_v;
 
 public:
-    explicit A(int);
-
-    A(int v): m_v(v) {}
+    explicit A(int v): m_v(v) {}
 
     int v() const
     {
