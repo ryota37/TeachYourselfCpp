@@ -1,2 +1,13 @@
 Q.お使いのコンパイラーが初期化構文付き条件分岐をサポートしているか調べてください。
 コンパイラーのドキュメントを読んでも構いませんし、実際に初期化構文付き条件分岐があるプログラムをコンパイルして成功するか確認する方法でも構いません。
+
+A.prac4-4-3.cppを実行した際にエラーが出なかったため、自分の環境では条件分岐をサポートしている。
+
+
+g++ --version
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+
+https://developer.apple.com/xcode/cpp/#c++17
+に、Separate variable and condition for if and switch	P0305R1	という記述があった。
+
+参考: https://cpprefjp.github.io/lang/cpp17/selection_statements_with_initializer.html
