@@ -5,7 +5,7 @@
 
 int get_counter()
 {
-    int counter = 0;
+    static int counter = 0;
     return counter++;
 }
 
