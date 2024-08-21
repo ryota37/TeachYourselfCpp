@@ -6,13 +6,18 @@ class product
 
 public:;
 
-    product(int price);
+    inline product(int price);
 
-    int get_price() const;
-    void set_price(int price);
+    inline int get_price() const;
+    inline void set_price(int price);
 };
 
 product::product(int price) : price(price) {}
 
 int product::get_price() const { return price; }
 void product::set_price(int price) { this->price = price; }
+
+int main ()
+{
+    return 0;
+}
