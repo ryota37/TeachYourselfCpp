@@ -1,4 +1,5 @@
-// Fix the following program so that it compiles and runs.
+// Capture the copy of the whole instance.
+// Then check if the behavior is diferent from the capture of this pointer.
 
 #include <iostream>
 
@@ -19,7 +20,7 @@ void A::foo()
     };
     value = 0;
     lambda();
-}
+};
 
 int main()
 {
