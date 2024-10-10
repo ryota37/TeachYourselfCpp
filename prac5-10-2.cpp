@@ -14,7 +14,7 @@ public:
 
 void A::foo()
 {
-    auto lambda = [this]()
+    auto lambda = [*this]()
     {
         std::cout << value << std::endl;
     };
@@ -28,3 +28,5 @@ int main()
     a.set(42);
     a.foo();
 }
+
+// The behavior differs on C++17, not on C++11. 
