@@ -13,7 +13,7 @@ public:
 
 void A::foo()
 {
-    auto lambda = []()
+    auto lambda = [this]()
     {
         std::cout << value << std::endl;
     };
