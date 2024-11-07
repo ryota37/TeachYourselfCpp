@@ -17,5 +17,7 @@ public:
 int main()
 {
     B b;
-    b.foo(); //エラー
+    A ab = b;
+    ab.foo(); //エラー
+    // static_cast<const A&>(b).foo(); // Answer
 }
