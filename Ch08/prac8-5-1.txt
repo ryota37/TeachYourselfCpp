@@ -1,0 +1,3 @@
+Q. ファイルの入出力両方をすることができるファイルストリームの型は何か説明してください。
+myA. std::fstream inout
+A. std::fstream型です
