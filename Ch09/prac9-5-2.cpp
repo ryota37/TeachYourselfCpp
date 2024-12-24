@@ -1,0 +1,1 @@
+// Call a function template using type inference without specifying the template parameter.
