@@ -1,0 +1,4 @@
+Q. 型特性のうち、述語のテンプレートを1つ説明してください。
+myA. 述語のテンプレートである std::is_integral<T>::value は、Tが整数型ならtrueを返す
+A. 一例を示します。
+- std::is_class<T>は、Tがクラス型の場合にstaticメンバー変数valueがtrueとなる
