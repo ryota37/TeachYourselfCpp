@@ -1,0 +1,4 @@
+Q. std::listのイテレーターを3つ進めたい時、どうすればいいか説明してください。
+myA. std::advance()関数を使い、 std::advance(iter, 3)のようにする
+A. std::listのイテレーターは前後に1つずつしか進めないので、3回インクリメントするか、
+std::advance()関数もしくはstd::next()関数を使います。
