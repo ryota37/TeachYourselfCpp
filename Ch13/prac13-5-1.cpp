@@ -1,0 +1,1 @@
+// Enter a string and a regex respectively, then check if the string perfectly matches the regex.
